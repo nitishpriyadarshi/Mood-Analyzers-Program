@@ -8,7 +8,7 @@ public class MoodAnalyserTest {
     @BeforeEach
     public void setUp()
     {
-        object = new MoodAnalyser("This is a happy message");
+        object = new MoodAnalyser();
     }
     @Test
     public void moodAnalyser()
